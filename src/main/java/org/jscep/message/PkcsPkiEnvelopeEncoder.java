@@ -1,23 +1,23 @@
 package org.jscep.message;
 
-import static org.bouncycastle.cms.CMSAlgorithm.DES_CBC;
-import static org.bouncycastle.cms.CMSAlgorithm.DES_EDE3_CBC;
-import static org.bouncycastle.cms.CMSAlgorithm.AES128_CBC;
-import static org.bouncycastle.cms.CMSAlgorithm.AES192_CBC;
-import static org.bouncycastle.cms.CMSAlgorithm.AES256_CBC;
+import static org.spongycastle.cms.CMSAlgorithm.DES_CBC;
+import static org.spongycastle.cms.CMSAlgorithm.DES_EDE3_CBC;
+import static org.spongycastle.cms.CMSAlgorithm.AES128_CBC;
+import static org.spongycastle.cms.CMSAlgorithm.AES192_CBC;
+import static org.spongycastle.cms.CMSAlgorithm.AES256_CBC;
 
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.X509Certificate;
 
-import org.bouncycastle.cms.CMSEnvelopedData;
-import org.bouncycastle.cms.CMSEnvelopedDataGenerator;
-import org.bouncycastle.cms.CMSException;
-import org.bouncycastle.cms.CMSProcessableByteArray;
-import org.bouncycastle.cms.CMSTypedData;
-import org.bouncycastle.cms.RecipientInfoGenerator;
-import org.bouncycastle.cms.jcajce.JceCMSContentEncryptorBuilder;
-import org.bouncycastle.cms.jcajce.JceKeyTransRecipientInfoGenerator;
-import org.bouncycastle.operator.OutputEncryptor;
+import org.spongycastle.cms.CMSEnvelopedData;
+import org.spongycastle.cms.CMSEnvelopedDataGenerator;
+import org.spongycastle.cms.CMSException;
+import org.spongycastle.cms.CMSProcessableByteArray;
+import org.spongycastle.cms.CMSTypedData;
+import org.spongycastle.cms.RecipientInfoGenerator;
+import org.spongycastle.cms.jcajce.JceCMSContentEncryptorBuilder;
+import org.spongycastle.cms.jcajce.JceKeyTransRecipientInfoGenerator;
+import org.spongycastle.operator.OutputEncryptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -21,7 +21,7 @@
  */
 package org.jscep.message;
 
-import org.bouncycastle.pkcs.PKCS10CertificationRequest;
+import org.spongycastle.pkcs.PKCS10CertificationRequest;
 import org.jscep.transaction.MessageType;
 import org.jscep.transaction.Nonce;
 import org.jscep.transaction.TransactionId;

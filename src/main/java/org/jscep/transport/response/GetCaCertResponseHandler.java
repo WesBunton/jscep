@@ -13,8 +13,8 @@ import java.util.Collections;
 
 import net.jcip.annotations.ThreadSafe;
 
-import org.bouncycastle.cms.CMSException;
-import org.bouncycastle.cms.CMSSignedData;
+import org.spongycastle.cms.CMSException;
+import org.spongycastle.cms.CMSSignedData;
 import org.jscep.util.SignedDataUtils;
 
 /**

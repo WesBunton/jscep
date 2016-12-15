@@ -2,7 +2,7 @@ package org.jscep.util;
 
 import javax.security.auth.x500.X500Principal;
 
-import org.bouncycastle.asn1.x500.X500Name;
+import org.spongycastle.asn1.x500.X500Name;
 
 /**
  * This is a utility class for performing various operations pertaining to X.500

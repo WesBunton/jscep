@@ -12,8 +12,8 @@ import javax.security.auth.x500.X500Principal;
 
 import junit.framework.Assert;
 
-import org.bouncycastle.asn1.cms.IssuerAndSerialNumber;
-import org.bouncycastle.asn1.x500.X500Name;
+import org.spongycastle.asn1.cms.IssuerAndSerialNumber;
+import org.spongycastle.asn1.x500.X500Name;
 import org.eclipse.jetty.server.Server;
 import org.jscep.message.GetCert;
 import org.jscep.message.PkcsPkiEnvelopeEncoder;

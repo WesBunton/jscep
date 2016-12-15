@@ -8,13 +8,13 @@ import java.security.spec.InvalidKeySpecException;
 import java.security.spec.KeySpec;
 import java.security.spec.RSAPublicKeySpec;
 
-import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;
-import org.bouncycastle.crypto.params.RSAKeyParameters;
-import org.bouncycastle.crypto.util.PublicKeyFactory;
-import org.bouncycastle.pkcs.PKCS10CertificationRequest;
-import org.bouncycastle.asn1.DERPrintableString;
-import org.bouncycastle.asn1.pkcs.Attribute;
-import org.bouncycastle.asn1.pkcs.PKCSObjectIdentifiers;
+import org.spongycastle.asn1.x509.SubjectPublicKeyInfo;
+import org.spongycastle.crypto.params.RSAKeyParameters;
+import org.spongycastle.crypto.util.PublicKeyFactory;
+import org.spongycastle.pkcs.PKCS10CertificationRequest;
+import org.spongycastle.asn1.DERPrintableString;
+import org.spongycastle.asn1.pkcs.Attribute;
+import org.spongycastle.asn1.pkcs.PKCSObjectIdentifiers;
 
 /**
  * This class is used for performing utility operations on

@@ -11,7 +11,7 @@ import java.security.Provider;
 import java.security.Security;
 import java.util.EnumSet;
 
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import org.spongycastle.jce.provider.BouncyCastleProvider;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -14,18 +14,18 @@ import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;
 import javax.crypto.spec.IvParameterSpec;
 
-import org.bouncycastle.asn1.ASN1Encodable;
-import org.bouncycastle.asn1.ASN1OctetString;
-import org.bouncycastle.asn1.cms.EnvelopedData;
-import org.bouncycastle.asn1.x509.AlgorithmIdentifier;
-import org.bouncycastle.cms.CMSEnvelopedData;
-import org.bouncycastle.cms.CMSException;
-import org.bouncycastle.cms.RecipientInformation;
-import org.bouncycastle.cms.RecipientInformationStore;
-import org.bouncycastle.cms.RecipientOperator;
-import org.bouncycastle.cms.jcajce.JceKeyTransEnvelopedRecipient;
-import org.bouncycastle.cms.jcajce.JceKeyTransRecipientId;
-import org.bouncycastle.operator.InputDecryptor;
+import org.spongycastle.asn1.ASN1Encodable;
+import org.spongycastle.asn1.ASN1OctetString;
+import org.spongycastle.asn1.cms.EnvelopedData;
+import org.spongycastle.asn1.x509.AlgorithmIdentifier;
+import org.spongycastle.cms.CMSEnvelopedData;
+import org.spongycastle.cms.CMSException;
+import org.spongycastle.cms.RecipientInformation;
+import org.spongycastle.cms.RecipientInformationStore;
+import org.spongycastle.cms.RecipientOperator;
+import org.spongycastle.cms.jcajce.JceKeyTransEnvelopedRecipient;
+import org.spongycastle.cms.jcajce.JceKeyTransRecipientId;
+import org.spongycastle.operator.InputDecryptor;
 import org.slf4j.Logger;
 
 /**

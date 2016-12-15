@@ -23,17 +23,17 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
 
-import org.bouncycastle.asn1.cms.IssuerAndSerialNumber;
-import org.bouncycastle.asn1.x500.X500Name;
-import org.bouncycastle.asn1.x509.BasicConstraints;
-import org.bouncycastle.asn1.x509.X509Extension;
-import org.bouncycastle.cert.X509CertificateHolder;
-import org.bouncycastle.cert.jcajce.JcaX509CertificateConverter;
-import org.bouncycastle.cert.jcajce.JcaX509v3CertificateBuilder;
-import org.bouncycastle.operator.ContentSigner;
-import org.bouncycastle.operator.OperatorCreationException;
-import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
-import org.bouncycastle.pkcs.PKCS10CertificationRequest;
+import org.spongycastle.asn1.cms.IssuerAndSerialNumber;
+import org.spongycastle.asn1.x500.X500Name;
+import org.spongycastle.asn1.x509.BasicConstraints;
+import org.spongycastle.asn1.x509.X509Extension;
+import org.spongycastle.cert.X509CertificateHolder;
+import org.spongycastle.cert.jcajce.JcaX509CertificateConverter;
+import org.spongycastle.cert.jcajce.JcaX509v3CertificateBuilder;
+import org.spongycastle.operator.ContentSigner;
+import org.spongycastle.operator.OperatorCreationException;
+import org.spongycastle.operator.jcajce.JcaContentSignerBuilder;
+import org.spongycastle.pkcs.PKCS10CertificationRequest;
 import org.jscep.transaction.FailInfo;
 import org.jscep.transaction.OperationFailureException;
 import org.jscep.transaction.TransactionId;

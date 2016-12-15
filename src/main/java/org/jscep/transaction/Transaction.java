@@ -2,7 +2,7 @@ package org.jscep.transaction;
 
 import java.security.cert.CertStore;
 
-import org.bouncycastle.cms.CMSSignedData;
+import org.spongycastle.cms.CMSSignedData;
 import org.jscep.message.CertRep;
 import org.jscep.message.MessageDecodingException;
 import org.jscep.message.MessageEncodingException;

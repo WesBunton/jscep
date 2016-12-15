@@ -211,9 +211,9 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>org.bouncycastle</groupId>
-			<artifactId>bcpkix-jdk15on</artifactId>
-			<version>1.51</version>
+			<groupId>com.madgag.spongycastle</groupId>
+			<artifactId>pkix</artifactId>
+			<version>1.54.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

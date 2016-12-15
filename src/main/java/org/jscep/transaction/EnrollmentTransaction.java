@@ -5,8 +5,8 @@ import static org.slf4j.LoggerFactory.getLogger;
 import java.io.IOException;
 import java.security.spec.InvalidKeySpecException;
 
-import org.bouncycastle.cms.CMSSignedData;
-import org.bouncycastle.pkcs.PKCS10CertificationRequest;
+import org.spongycastle.cms.CMSSignedData;
+import org.spongycastle.pkcs.PKCS10CertificationRequest;
 import org.jscep.asn1.IssuerAndSubject;
 import org.jscep.message.CertRep;
 import org.jscep.message.GetCertInitial;

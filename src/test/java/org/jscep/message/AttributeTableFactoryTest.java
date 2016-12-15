@@ -12,10 +12,10 @@ import static org.jscep.asn1.ScepObjectIdentifier.TRANS_ID;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.mock;
 
-import org.bouncycastle.asn1.ASN1ObjectIdentifier;
-import org.bouncycastle.asn1.cms.Attribute;
-import org.bouncycastle.asn1.cms.AttributeTable;
-import org.bouncycastle.asn1.cms.IssuerAndSerialNumber;
+import org.spongycastle.asn1.ASN1ObjectIdentifier;
+import org.spongycastle.asn1.cms.Attribute;
+import org.spongycastle.asn1.cms.AttributeTable;
+import org.spongycastle.asn1.cms.IssuerAndSerialNumber;
 import org.jscep.asn1.ScepObjectIdentifier;
 import org.jscep.transaction.FailInfo;
 import org.jscep.transaction.Nonce;

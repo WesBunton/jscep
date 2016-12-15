@@ -22,7 +22,7 @@
  */
 package org.jscep.message;
 
-import org.bouncycastle.cms.CMSSignedData;
+import org.spongycastle.cms.CMSSignedData;
 import org.jscep.transaction.FailInfo;
 import org.jscep.transaction.MessageType;
 import org.jscep.transaction.Nonce;
