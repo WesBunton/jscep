@@ -1,3 +1,18 @@
+jscep fork for Android
+=====
+
+This is identical to the master branch of the jscep project, except the bouncy castle library is swapped out for the Android friendly spongy castle library.
+
+## Quickstart guide for building jscep for Android:
+
+- Clone this fork.
+- Set JAVA_HOME environment variable to point to your jre. This was build successfully with jdk1.7.0_80.
+- Download the unrestricted JAR files from oracle. Extract and copy them to your jre/libs/security/ dir.
+- Run a local build rather than the 'release.sh' script. Do this by executing: `$ mvn package`
+- Add output library to your Android project.
+
+This fork is going to be maintained in parallel with the jscep project. Therefore, there's no planned pull request for this fork. Please feel free to suggest updates/changes.
+
 jscep [![Build Status](https://travis-ci.org/jscep/jscep.svg?branch=master)](https://travis-ci.org/jscep/jscep)
 =====
 
