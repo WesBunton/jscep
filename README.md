@@ -1,4 +1,4 @@
-jscep fork for Android
+jscep fork for Android [![Build Status](https://travis-ci.org/WesBunton/jscep.svg?branch=master)](https://travis-ci.org/WesBunton/jscep)
 =====
 
 This is identical to the master branch of the jscep project, except the bouncy castle library is swapped out for the Android friendly spongy castle library.
