@@ -6,7 +6,7 @@ This is identical to the master branch of the jscep project, except the bouncy c
 ## Quickstart guide for building jscep for Android:
 
 - Clone this fork.
-- Set JAVA_HOME environment variable to point to your jre. This was build successfully with jdk1.7.0_80.
+- Set JAVA_HOME environment variable to point to your jre. This was built successfully with jdk1.7.0_80.
 - Download the unrestricted JAR files from oracle. Extract and copy them to your jre/libs/security/ dir.
 - Run a local build rather than the 'release.sh' script. Do this by executing: `$ mvn package`
 - Add output library to your Android project.
